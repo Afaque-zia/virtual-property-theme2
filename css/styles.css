@@ -12382,7 +12382,7 @@ tr {
   }
 
   .box-location:not(.style-2) .content {
-    text-align: center;
+    text-align: left;
   }
 
   .section-realty .counter-item {
