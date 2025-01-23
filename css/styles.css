@@ -12236,6 +12236,14 @@ tr {
 
   .box-location .content {
     margin: 0 10px;
+    padding: 10px;
+    background-color: #00000030;
+
+  }
+
+  .box-location .content h6,
+  .box-location .content p {
+    text-shadow: 0px 0px 6px black;
   }
 
   .box-location .tf-btn {
