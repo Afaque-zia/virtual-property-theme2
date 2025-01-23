@@ -11275,11 +11275,22 @@ tr {
   }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 768px) {
+  .wrap-neighborhoods {
+    grid-template-columns: 1fr;
+    grid-template-areas: "aa" " bb " "cc" " dd" "ee" " gg" " ff";
+  }
+}
+
+@media (min-width:769px) and (max-width:1400px) {
   .wrap-neighborhoods {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "aa bb " "cc dd" "ee gg" "ff ff";
   }
+}
+
+@media (max-width: 1400px) {
+
 
   .show-mb {
     display: inline-block;
