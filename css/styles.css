@@ -6682,11 +6682,7 @@ tr {
   transform: translateY(0px);
 }
 
-.box-house:hover .image-wrap a::after {
-  bottom: 0;
-  opacity: 1;
-  visibility: visible;
-}
+
 
 .box-house.style-list {
   display: -webkit-box;
@@ -10582,7 +10578,7 @@ tr {
 }
 
 .section-top-map.style-2 .wrap-map {
-  height: 855px;
+  height: 600px;
 }
 
 .section-top-map.style-2 .box {
